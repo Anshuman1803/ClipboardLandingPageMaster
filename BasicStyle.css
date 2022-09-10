@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+/* font-family: 'Bai Jamjuree', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Style Start */
+header {
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0 12px;
+}
+
+header img {
+    width: 100px;
+
+}
+
+header h1 {
+    font-size: 40px;
+    color: hsl(210, 10%, 33%);
+    margin-top: 0.5em;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    width: 47%;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+header .DownloadButtons {
+    width: 100%;
+
+}
+
+header .DownloadButtons button {
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 35px;
+    margin: 15px 5px;
+}
+
+header .DownloadButtons button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.iOSdownloadbtn {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 4px hsl(171, 66%, 44%);
+}
+
+.Macdownloadbtn {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 4px hsl(233deg 71% 61%);
+}
+
+/* Header Style end */
+
+
+/* Snippets Style Start */
+#Snippets {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+/*  Snipeets Title  styleStart */
+.SnipeetsTitle {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    text-align: center;
+    width: 100%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+}
+
+.SnipeetsTitle h2 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+}
+
+.SnipeetsTitle p {
+    text-align: center;
+    width: 46%;
+    font-weight: 300;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.3em;
+}
+
+/* Snipeets Title style  End */
+
+
+/* Features Style Start */
+.features {
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+}
+
+.features .Poster {
+    width: 60%;
+    margin-left: -100px;
+}
+
+.features .Poster img {
+    width: 85%;
+
+}
+
+.features .CardInfo {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.features .CardInfo .info {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5em;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.features .info h3 {
+    font-size: 20px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+.features .info p {
+    font-size: 16px;
+    color: hsl(201, 11%, 66%);
+    font-weight: 300;
+}
+
+/* Features Style end */
+/* Snippets Style End */
+
+
+/* Access Style Start */
+#Access {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.AccessTitle {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.AccessTitle h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.AccessTitle p {
+    color: hsl(201, 11%, 66%);
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px auto;
+}
+
+.Accessposter {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.Accessposter img {
+    width: 90%;
+}
+
+/* Access style end */
+
+/* WorkFlow style Start */
+#WorkFlow {
+    margin-top: 50px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.WorkflowTitle {
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.WorkflowTitle h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.WorkflowTitle p {
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.CardContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 0 1.5em;
+}
+
+.CardContainer .Card {
+    padding: 1em;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.CardContainer .Card h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 30px;
+}
+
+.CardContainer .Card p {
+    color: hsl(201, 11%, 66%);
+    width: 85%;
+    font-size: 16px;
+    font-weight: 300;
+}
+ /* WorkFlow style End */ 
+
+
+
+ /* Partners style Start */ 
+#Partners{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7em;
+    padding: 5em;
+}
+ /* Partners style End */ 
+
+ /* Download style Start */ 
+ #Download{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    padding: 5em;
+ }
+ .DownloadGuid{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 100%;
+
+ }
+ .DownloadGuid h3{
+    font-size: 40px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+ }
+ .DownloadGuid p{
+    text-align: center;
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+    font-weight: 300;
+    width: 60%;
+ }
+#Download .DownloadButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+ }
+ .DownloadButtons button {
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 35px;
+}
+.DownloadButtons button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+ /* Download style End */ 
+
+ /* footer style start */
+
+ footer{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 3em;
+    padding: 2em;
+    background-color: ghostwhite;
+
+ }
+ footer .logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ footer img{
+  width: 80px;
+
+ }
+ .help{
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ }
+ .help a{
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+ }
+ .help a:hover{
+    cursor: pointer;
+   color: hsl(171, 66%, 44%);
+ }
+ .socialSites{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+ }
+ .socialSites i{
+ font-size: 30px;
+ }
+ .socialSites i:hover{
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+ }
+ /* footer style End*/

@@ -1,0 +1,150 @@
+@media screen and (max-width: 1050px) {
+
+    header {
+        padding: 50px 0 12px;
+    }
+    header img{
+        width: 100px;
+        
+    }
+    header h1{
+        font-size: 35px;
+    }
+    header p{
+        font-size: 15px;
+        width: 85%;
+    }
+    header .DownloadButtons{
+        width: 100%;
+       
+    }
+    header .DownloadButtons button{
+        width: 90%;
+        padding: 15px 35px;
+        margin: 10px 0px;
+    }
+    header .DownloadButtons button:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .SnipeetsTitle p{
+        padding: 0px 30px;
+        width: 100%;
+        font-weight: 300;
+    }
+    #Snippets{
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+    }
+    .features{
+        height: 80vh;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 16px;
+        gap: 1em;
+    }
+    .features .Poster{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .features .Poster img{
+        width:100%;
+    }
+    .features .CardInfo{
+        width: 100%;
+       align-items: center;
+       justify-content: center;
+       gap: 2em;
+    }
+    
+    .features .CardInfo .info{
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+    #Access {
+        margin-top: 150px;
+    }
+    .AccessTitle p{
+       width: 100%;
+       line-height: 1.5em;
+    }
+    #WorkFlow {
+        height: fit-content;
+        gap: 2em;
+    }
+    .WorkflowTitle {
+        padding-top: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .WorkflowTitle p {
+        width: 85%;
+        margin: 10px auto;
+    }
+    .CardContainer {
+        flex-direction: column;
+    }
+    
+    .CardContainer .Card {
+        width: 100%;
+        padding: 1em 0.5em;
+    }
+    .CardContainer .Card p {
+        width: 100%;
+        font-size: 15px;
+    }
+    #Partners{
+        gap: 5em;
+        flex-direction: column;
+    }
+
+    #Download{
+        gap: 2em;
+        padding: 1.5em 0em;
+        text-align: center;
+     }
+     .DownloadGuid{
+        padding: 1.5em;
+    
+     }
+     .DownloadGuid h3{
+        font-size: 30px;
+     }
+     .DownloadGuid p{
+        font-size: 16px;
+        width: 99%;
+     }
+    #Download .DownloadButtons{
+        flex-direction: column;
+        width: 90%;
+     }
+     footer{
+        height: 100vh;
+        flex-direction: column;    
+        gap: 0em;
+     }
+     footer .logo{
+        width: 100%;
+     }
+     footer img{
+      width: 100px;
+     }
+     .help{
+        padding: 0.5em 0;
+        width: 100%;
+        height: 100%;
+       grid-template-columns: 1fr;
+        gap: 2em;
+     }
+     .socialSites{
+        margin-top: 2em;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        gap: 3em;
+     }
+}
